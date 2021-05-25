@@ -1,0 +1,39 @@
+{
+  "name": "clockify-node-api",
+  "version": "1.9.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "<rootDir>/build/",
+      "<rootDir>/node_modules/",
+      "<rootDir>/tests/integration/services/ProjectServices",
+      "<rootDir>/tests/integration/services/TaskServices",
+      "<rootDir>/tests/integration/services/TimeEntryServices",
+      "<rootDir>/tests/integration/routes/projects",
+      "<rootDir>/tests/integration/routes/task",
+      "<rootDir>/tests/integration/routes/timeEntry",
+      "<rootDir>/tests/integration/resetAll",
+      "dummy"
+    ]
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage --maxWorkers=1",
+    "test2": "jest --watchAll --verbose --coverage --maxWorkers=1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
+    "supertest": "^3.4.2"
+  }
+}

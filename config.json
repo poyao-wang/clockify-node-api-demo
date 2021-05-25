@@ -1,0 +1,6 @@
+{
+  "axiosBaseURL": "https://api.clockify.me/api/v1",
+  "apiKey": "YOUR_KEY",
+  "userId": "YOUR_USERID",
+  "workspaceId": "YOUR_WORKSPACEID"
+}
