@@ -1,6 +1,6 @@
 # clockify-node-api-demo
 
-これは、[ClockifyAPI](https://clockify.me/developers-api) に接続するバックエンド API のデモです。
+この node アプリは、[ClockifyAPI](https://clockify.me/developers-api) に接続するバックエンド API のデモです。
 GET リクエストを使用して、[Clockify](https://clockify.me) のデータベースに項目を追加/削除/更新できます。
 
 _他の言語で読んでください： [English](README.md)_
